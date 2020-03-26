@@ -37,8 +37,8 @@ end
 
 def play(board)
   turns_played = 0
-    until turns_played  == 9
-      turn(board)
+  until turns_played == 9
+    turn(board)
     turns_played += 1
   end
 end
